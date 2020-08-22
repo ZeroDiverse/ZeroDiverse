@@ -1,7 +1,7 @@
 /* Introduction Section */
 main {
     .introduction-section {
-        background: url("/images/mobile_bg.png") no-repeat;
+        background: url("https://res.cloudinary.com/dnndch4fo/image/upload/v1598116969/zero/background/mobile_bg_tvpr0g.webp") no-repeat;
         background-size: cover;
         background-position: center;
         height: 100vh;
@@ -41,35 +41,12 @@ main {
     /* Introduction Section */
     main {
         .introduction-section {
-            background: url("/images/mobile_bg.png") no-repeat;
-            background-size: cover;
-            background-position: center;
-            height: 100vh;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
             h1 {
-                font-family: 'EurostileBold';
-                font-style: normal;
-                font-weight: bold;
                 font-size: 30px;
-                line-height: 2rem;
-                color: getColor(primaryWhite);
-                margin-top: 0;
             }
 
             p {
-                color: getColor(primaryWhite);
-                text-align: center;
-                font-style: normal;
-                font-weight: normal;
                 font-size: 15px;
-                width: 80%;
-                margin-bottom: 0;
-                margin-top: 0;
             }
         }
     }
