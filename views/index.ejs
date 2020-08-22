@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/css/index.min.css' />
-  </head>
-  <body>
-    <header>
-      <%- include('./partials/navbar.ejs') -%>
-    </header>
-    <main>
-      <section class="introduction-section">
-        <h1>HI I'M ZERO DIVERSE</h1>
-        <p>
-          I am an Android - Full-stack passionate developer lived in Lille, France
-        </p>
-      </section>
-    </main>
-  </body>
-  <script src="/javascripts/index.js"></script>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/css/index.min.css' />
+</head>
+
+<body>
+  <header>
+    <%- include('./partials/navbar.ejs') -%>
+  </header>
+  <main>
+    <section class="introduction-section" id="introduction">
+      <h1>HI I'M ZERO DIVERSE</h1>
+      <p>
+        I am an Android - Full-stack passionate developer lived in Lille, France.</p>
+      <p>I love learning programming languages, programming, and work in a team.</p>
+    </section>
+    <section class="projects-section" id="projects">
+      <div class="intro-project">
+        <h2>MY PROJECTS</h2>
+        <h3>My Recent Work Here are a few projects I've worked on recently. Want to see more? EMAIL ME</h3>
+      </div>
+      <article class="project">
+        <div class="icon-project">
+          <img src="/images/android.gif" alt="android icon" />
+        </div>
+        <div class="description">
+          <h3 class="desc">ANDROID PROJECTS</h3>
+          <p>
+            Android project based on freeCodeCamp web project, help people finding weather in the local position or
+            weather in others city used OpenWeatherAPI and Retrofit in Kotlin.Android project based on CodeCamp web
+            project, help people finding weather in the local position or weather in others city.
+          </p>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+<script src="/javascripts/index.js"></script>
+
 </html>

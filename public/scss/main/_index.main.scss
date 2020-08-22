@@ -2,6 +2,8 @@
 @import '../abstract/functions';
 
 main {
+
+    /* Introduction Section */
     .introduction-section {
         background: url("/images/mobile_bg.png") no-repeat;
         background-size: cover;
@@ -11,9 +13,10 @@ main {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-bottom: 4.375rem;
 
         h1 {
-            font-family: "eurostyle";
+            font-family: 'EurostileBold';
             font-style: normal;
             font-weight: bold;
             font-size: 30px;
@@ -27,6 +30,59 @@ main {
             font-style: normal;
             font-weight: normal;
             font-size: 15px;
+            width: 90%;
+            margin-bottom: 0;
+            margin-top: 0;
         }
     }
+
+    /* Introduction section */
+    /* Projects section */
+    .projects-section {
+        text-align: center;
+        width: 88%;
+        margin: auto;
+
+        .intro-project {
+            margin-bottom: 4.375rem;
+
+            h2 {
+                font-size: 20px;
+                line-height: 32px;
+            }
+
+            h3 {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 24px;
+                /* or 200% */
+
+                display: flex;
+                align-items: center;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+
+        .project {
+            .icon-project {
+                img {
+                    width: 6.06rem;
+                }
+            }
+
+            .description {
+                .desc {
+                    //Todo font weight
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 52px;
+                }
+            }
+        }
+    }
+
+    /* Projects section */
 }
