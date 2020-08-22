@@ -10,6 +10,7 @@ const compression = require('compression');
 const helmet = require('helmet');
 var app = express();
 //app.use(helmet());
+app.disable('x-powered-by');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
