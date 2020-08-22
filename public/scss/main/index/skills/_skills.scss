@@ -1,10 +1,8 @@
-@import '../../../abstract/colors';
-@import '../../../abstract/functions';
-
 main {
     .skills-section {
         text-align: center;
         margin-bottom: 5.8rem;
+
         .section-intro {
             background: url('https://res.cloudinary.com/dnndch4fo/image/upload/v1598096501/zero/background/bg_skills_section_g8t2vg.png') no-repeat;
             background-size: cover;
@@ -56,9 +54,11 @@ main {
                     line-height: 24px;
                     text-transform: uppercase;
                 }
-                p{
+
+                p {
                     color: getColor(silver);
                 }
+
                 .skill-tools {
                     ul {
                         margin-left: 0;

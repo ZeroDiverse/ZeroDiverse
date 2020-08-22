@@ -1,13 +1,11 @@
-@import '../../../abstract/colors';
-@import '../../../abstract/functions';
-@import '../../../fonts/fonts';
-
 main {
     .about-section {
         margin-bottom: 13.5rem;
 
         .section-intro {
-            img,video {
+
+            img,
+            video {
                 width: 22.5rem;
                 transform: translateX(-6rem);
             }
@@ -42,7 +40,9 @@ main {
     main {
         .about-section {
             .section-intro {
-                img, video {
+
+                img,
+                video {
                     width: 27.5rem;
                     transform: translateX(-4rem);
                 }
@@ -55,7 +55,9 @@ main {
     main {
         .about-section {
             .section-intro {
-                img, video {
+
+                img,
+                video {
                     width: 27.5rem;
                     transform: translateX(-4rem);
                 }

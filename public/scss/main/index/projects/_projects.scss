@@ -1,15 +1,12 @@
-@import '../../../abstract/colors';
-@import '../../../abstract/functions';
-@import '../../../fonts/fonts';
-
-
 main {
+
     /* Projects section */
     .projects-section {
         text-align: center;
         width: 88%;
         margin: auto;
         margin-top: 4.5rem;
+
         .section-intro {
             margin-bottom: 4.375rem;
 
@@ -33,7 +30,9 @@ main {
             margin-bottom: 80px;
 
             .icon-project {
-                img, video {
+
+                img,
+                video {
                     width: 6.06rem;
                 }
             }
