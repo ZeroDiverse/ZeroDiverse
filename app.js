@@ -6,11 +6,14 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var compression = require('compression')
+var compression = require('compression');
+var serveStatic = require('serve-static');
+
 var app = express();
 //app.use(helmet());
 app.disable('x-powered-by');
 app.use(compression({ filter: shouldCompress }));
+app.use(serveStatic('public/ftp', { 'index': ['default.html', 'default.htm'] }))
 
 function shouldCompress (req, res) {
   if (req.headers['x-no-compression']) {
