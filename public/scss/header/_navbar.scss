@@ -1,8 +1,10 @@
 @import '../abstract/functions';
 @import '../abstract/colors';
-nav{
+
+nav {
     background-color: transparent;
-    .navbrand{
+
+    .navbrand {
         width: 64px;
         height: 50px;
         position: fixed;
@@ -10,6 +12,7 @@ nav{
         top: 1rem;
         background-color: white;
     }
+
     .navbar-main {
         position: fixed;
         right: 0;
@@ -17,46 +20,55 @@ nav{
         width: 0%; //80%
         transition: all 0.6s ease-out;
         background-color: getColor(primaryWhite);
-        .btn-open{
+
+        .btn-open {
             position: fixed;
             top: 2rem;
             right: 2rem;
             display: block;
-            &:hover{
-                svg{
+
+            &:hover {
+                svg {
                     fill: getColor(darkBlue);
                 }
             }
         }
-        .btn-close{
+
+        .btn-close {
             position: fixed;
             top: 1.5rem;
             right: 1.5rem;
             display: none;
         }
-        .navbar-nav{
+
+        .navbar-nav {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             justify-content: center;
             height: 100%;
-            li{
+
+            li {
                 margin-bottom: 3rem;
-                a{
+                a {
                     color: getColor(primaryBlue);
+                    font-weight: normal;
                     font-size: 19px;
                 }
             }
-            .primary{
+
+            .primary {
                 background-color: getColor(primaryBlue);
                 border: 2px solid #207BE6;
                 border-radius: 34px;
                 backdrop-filter: blur(4px);
-                padding: 10px 2.5rem;
-                &:hover{
+                padding: 7.5px 2rem;
+
+                &:hover {
                     background-color: getColor(darkBlue);
                 }
-                a{
+
+                a {
                     color: getColor(primaryWhite);
                 }
             }
@@ -65,6 +77,4 @@ nav{
 }
 
 
-@media only screen and (min-width: 1024px){
-
-}
+@media only screen and (min-width: 1024px) {}
