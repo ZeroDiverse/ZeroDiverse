@@ -6,11 +6,21 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-const compression = require('compression');
-const helmet = require('helmet');
+var compression = require('compression')
 var app = express();
 //app.use(helmet());
 app.disable('x-powered-by');
+app.use(compression({ filter: shouldCompress }));
+
+function shouldCompress (req, res) {
+  if (req.headers['x-no-compression']) {
+    // don't compress responses with this request header
+    return false
+  }
+
+  // fallback to standard filter function
+  return compression.filter(req, res)
+}
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -21,7 +31,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(compression());
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
