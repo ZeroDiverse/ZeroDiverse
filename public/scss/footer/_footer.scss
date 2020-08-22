@@ -60,3 +60,18 @@ footer {
         }
     }
 }
+
+
+.down-arrow{
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1rem;
+    filter: drop-shadow(0px 0px 20px rgba(119, 125, 255, 0.1));
+    background-color: getColor(primaryBlue);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

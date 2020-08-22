@@ -36,14 +36,14 @@ main {
     }
 }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 330px) {
     main {
         .about-section {
             .section-intro {
 
                 img,
                 video {
-                    width: 27.5rem;
+                    width: 24.5rem;
                     transform: translateX(-4rem);
                 }
             }
