@@ -1,7 +1,10 @@
 @import './fonts/fonts';
-
+@import './abstract/colors';
+@import './abstract/functions';
+@import './abstract/buttons';
 @import './header/navbar';
 @import './main/index/index.main';
+@import './footer/footer';
 
 *{
     box-sizing: border-box;
@@ -29,4 +32,13 @@ a{
 p{
     line-height: 24px;
     font-size: 12px;
+    color: getColor(silver);
+}
+
+.icon-img{
+    width: 97px;
+}
+
+a{
+    color: getColor(primaryWhite);
 }

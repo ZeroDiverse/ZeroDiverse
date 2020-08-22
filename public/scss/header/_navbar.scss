@@ -1,5 +1,6 @@
 @import '../abstract/functions';
 @import '../abstract/colors';
+@import '../fonts/fonts';
 
 nav {
     background-color: transparent;
@@ -50,6 +51,8 @@ nav {
 
             li {
                 margin-bottom: 3rem;
+                font-weight: normal;
+                font-size: 19px;
                 a {
                     color: getColor(primaryBlue);
                     font-weight: normal;
