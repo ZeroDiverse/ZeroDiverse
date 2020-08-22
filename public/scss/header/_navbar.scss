@@ -21,7 +21,7 @@ nav {
         width: 0%; //80%
         transition: all 0.6s ease-out;
         background-color: getColor(primaryWhite);
-
+        z-index: 20000;
         .btn-open {
             position: fixed;
             top: 2rem;
