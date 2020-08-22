@@ -2,7 +2,7 @@
 @font-face {
     font-family: "OpenSans-Regular";
     src: url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092872/zero/fonts/OpenSans-Regular/fonts/OpenSans-Regular_jjjfo0.eot"); /* IE9 Compat Modes */
-    src: url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092872/zero/fonts/OpenSans-Regular/fonts/OpenSans-Regular_jjjfo0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    src: local('Pacifico Regular'), local('Pacifico-Regular'),url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092872/zero/fonts/OpenSans-Regular/fonts/OpenSans-Regular_jjjfo0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
       url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092872/zero/fonts/OpenSans-Regular/fonts/OpenSans-Regular_sgwl1l.otf") format("opentype"), /* Open Type Font */
       url("/fonts/OpenSans-Regular/fonts/OpenSans-Regular.svg") format("svg"), /* Legacy iOS */
       url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092872/zero/fonts/OpenSans-Regular/fonts/OpenSans-Regular_xsljdp.ttf") format("truetype"), /* Safari, Android, iOS */
@@ -10,13 +10,15 @@
       url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092873/zero/fonts/OpenSans-Regular/fonts/OpenSans-Regular_pwy3ow.woff2") format("woff2"); /* Modern Browsers */
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
   }
 
 /* font converted using font-converter.net. thank you! */
 @font-face {
   font-family: "EurostileBold";
   src: url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092872/zero/fonts/Eurostile/fonts/EurostileBold_n459sd.eot"); /* IE9 Compat Modes */
-  src: url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092872/zero/fonts/Eurostile/fonts/EurostileBold_n459sd.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  src: 
+  local('Pacifico Regular'), local('Pacifico-Regular'),url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092872/zero/fonts/Eurostile/fonts/EurostileBold_n459sd.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
   url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092872/zero/fonts/Eurostile/fonts/EurostileBold_xgojsu.otf") format("opentype"), /* Open Type Font */
   url("/fonts/Eurostile/fonts/EurostileBold.svg") format("svg"), /* Legacy iOS */
   url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092872/zero/fonts/Eurostile/fonts/EurostileBold_aytjfh.ttf") format("truetype"), /* Safari, Android, iOS */
@@ -24,13 +26,15 @@
   url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092872/zero/fonts/Eurostile/fonts/EurostileBold_ze3fpd.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 /* font converted using font-converter.net. thank you! */
 @font-face {
   font-family: "OpenSans-SemiBold";
   src: url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092873/zero/fonts/OpenSans-SemoBold/fonts/OpenSans-SemiBold_y37hff.eot"); /* IE9 Compat Modes */
-  src: url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092873/zero/fonts/OpenSans-SemoBold/fonts/OpenSans-SemiBold_y37hff.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  src:local('Pacifico Regular'), local('Pacifico-Regular'), 
+  url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092873/zero/fonts/OpenSans-SemoBold/fonts/OpenSans-SemiBold_y37hff.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
     url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092873/zero/fonts/OpenSans-SemoBold/fonts/OpenSans-SemiBold_fefvoj.otf") format("opentype"), /* Open Type Font */
     url("/fonts/OpenSans-SemoBold/fonts/OpenSans-SemiBold.svg") format("svg"), /* Legacy iOS */
     url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092873/zero/fonts/OpenSans-SemoBold/fonts/OpenSans-SemiBold_jncdnq.ttf") format("truetype"), /* Safari, Android, iOS */
@@ -38,4 +42,5 @@
     url("https://res.cloudinary.com/dnndch4fo/raw/upload/v1598092873/zero/fonts/OpenSans-SemoBold/fonts/OpenSans-SemiBold_jqd4op.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
