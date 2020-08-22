@@ -7,7 +7,7 @@ main {
         margin-bottom: 13.5rem;
 
         .section-intro {
-            img {
+            img,video {
                 width: 22.5rem;
                 transform: translateX(-6rem);
             }
@@ -42,7 +42,7 @@ main {
     main {
         .about-section {
             .section-intro {
-                img {
+                img, video {
                     width: 27.5rem;
                     transform: translateX(-4rem);
                 }
@@ -55,7 +55,7 @@ main {
     main {
         .about-section {
             .section-intro {
-                img {
+                img, video {
                     width: 27.5rem;
                     transform: translateX(-4rem);
                 }
