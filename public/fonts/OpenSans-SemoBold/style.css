@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("./fonts/OpenSans-SemiBold.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/OpenSans-SemiBold.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/OpenSans-SemiBold.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/OpenSans-SemiBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/OpenSans-SemiBold.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/OpenSans-SemiBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

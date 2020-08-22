@@ -1,0 +1,21 @@
+@import './colors';
+@import './functions';
+
+.btn {
+    border: 2px solid #207BE6;
+    border-radius: 34px;
+    backdrop-filter: blur(4px);
+    padding: 7.5px 2rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    /* or 534% */
+
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    @extend .btn;
+    background-color: getColor(primaryBlue);
+    color: getColor(primaryWhite);
+}

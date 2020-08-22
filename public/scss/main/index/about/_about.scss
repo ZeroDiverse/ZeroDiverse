@@ -1,0 +1,65 @@
+@import '../../../abstract/colors';
+@import '../../../abstract/functions';
+@import '../../../fonts/fonts';
+
+main {
+    .about-section {
+        margin-bottom: 13.5rem;
+
+        .section-intro {
+            img {
+                width: 22.5rem;
+                transform: translateX(-6rem);
+            }
+        }
+
+        .section-main {
+            text-align: center;
+            width: 87.5%;
+            margin: auto;
+            margin-top: 4rem;
+
+            h2 {
+                font-family: 'OpenSans-SemiBold';
+                text-transform: uppercase;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+            }
+
+            p {
+                color: getColor(silver);
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 300px) {
+    main {
+        .about-section {
+            .section-intro {
+                img {
+                    width: 27.5rem;
+                    transform: translateX(-4rem);
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    main {
+        .about-section {
+            .section-intro {
+                img {
+                    width: 27.5rem;
+                    transform: translateX(-4rem);
+                }
+            }
+        }
+    }
+}

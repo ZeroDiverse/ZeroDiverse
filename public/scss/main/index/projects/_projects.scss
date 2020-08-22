@@ -1,0 +1,67 @@
+@import '../../../abstract/colors';
+@import '../../../abstract/functions';
+@import '../../../fonts/fonts';
+
+
+main {
+    /* Projects section */
+    .projects-section {
+        text-align: center;
+        width: 88%;
+        margin: auto;
+        margin-top: 4.5rem;
+        .section-intro {
+            margin-bottom: 4.375rem;
+
+            h2 {
+                font-family: 'OpenSans-SemiBold';
+                font-size: 20px;
+                line-height: 32px;
+            }
+
+            h3 {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 24px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+
+        .project {
+            margin-bottom: 80px;
+
+            .icon-project {
+                img {
+                    width: 6.06rem;
+                }
+            }
+
+            .description {
+                margin-bottom: 1.75rem;
+
+                .desc {
+                    //Todo font weight
+                    font-family: 'OpenSans-SemiBold';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 52px;
+                    margin-top: 0;
+                }
+            }
+
+            .project-img {
+                border-radius: 1.75rem;
+                margin-bottom: 6px;
+
+                img {
+                    width: 95%;
+                }
+            }
+        }
+    }
+
+    /* Projects section */
+}

@@ -1,0 +1,79 @@
+@import '../../../abstract/colors';
+@import '../../../abstract/functions';
+
+main {
+    .skills-section {
+        text-align: center;
+        margin-bottom: 5.8rem;
+        .section-intro {
+            background: url('https://res.cloudinary.com/dnndch4fo/image/upload/v1598096501/zero/background/bg_skills_section_g8t2vg.png') no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 21.75rem;
+
+            h2 {
+                font-family: 'OpenSans-SemiBold';
+                text-align: center;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                padding: 3.25rem 0;
+                /* or 556% */
+                text-transform: uppercase;
+                color: getColor(primaryWhite);
+            }
+        }
+
+        .skills {
+            width: 90%;
+            margin: auto;
+            margin-top: -13.75rem;
+            background: #FFFFFF;
+            border: 2px solid #F1F4F7;
+            box-sizing: border-box;
+            box-shadow: 0px 0px 30px rgba(119, 125, 255, 0.2);
+            border-radius: 30px;
+
+            .skill {
+                padding-top: 3rem;
+                border-bottom: 1px solid #E6ECF8;
+                padding-bottom: 2rem;
+
+                .h4 {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                    color: getColor(contrastBlue);
+                }
+
+                h3 {
+                    font-family: 'OpenSans-SemiBold';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                }
+                p{
+                    color: getColor(silver);
+                }
+                .skill-tools {
+                    ul {
+                        margin-left: 0;
+                        padding-left: 0;
+
+                        li {
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 12px;
+                            line-height: 24px;
+                            color: getColor(silver);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
