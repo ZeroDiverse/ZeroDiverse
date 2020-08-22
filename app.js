@@ -13,7 +13,7 @@ var app = express();
 //app.use(helmet());
 app.disable('x-powered-by');
 app.use(compression({ filter: shouldCompress }));
-app.use(serveStatic('public/ftp', { 'index': ['default.html', 'default.htm'] }))
+app.use(serveStatic(path.join(__dirname, 'public')));
 
 function shouldCompress (req, res) {
   if (req.headers['x-no-compression']) {
