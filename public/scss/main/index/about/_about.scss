@@ -65,3 +65,31 @@ main {
         }
     }
 }
+
+@media only screen and (min-width: 1024px) {
+    main{
+        .about-section{
+            display: flex;
+            padding: 0 7.5%;
+            transform: translateX(-7rem);
+            align-items: flex-end;
+            .section-intro{
+                img, video{
+                    width: 52rem;
+                }
+            }
+            .section-main{
+                margin-bottom: 2rem;
+                margin-top: auto;
+                h2{
+                    font-size: 2rem;
+                    text-align: start;
+                }
+                p{
+                    font-size: 1rem;
+                    text-align: start;
+                }
+            }
+        }
+    }
+}

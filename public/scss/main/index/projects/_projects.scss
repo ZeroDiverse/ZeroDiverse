@@ -11,7 +11,7 @@ main {
             margin-bottom: 4.375rem;
 
             h2 {
-                font-family: 'OpenSans-SemiBold','Courier New', Courier, monospace, sans-serif;
+                font-family: 'OpenSans-SemiBold', 'Courier New', Courier, monospace, sans-serif;
                 font-size: 20px;
                 line-height: 32px;
             }
@@ -23,6 +23,7 @@ main {
                 line-height: 24px;
                 text-align: center;
                 text-transform: uppercase;
+                color: getColor(silver);
             }
         }
 
@@ -57,10 +58,67 @@ main {
 
                 img {
                     width: 95%;
+                    border-radius: 22px;
                 }
             }
         }
     }
 
     /* Projects section */
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        .projects-section {
+            margin-bottom: 160px;
+            .section-intro {
+                h2 {
+                    font-size: 36px;
+                }
+
+                h3 {
+                    font-size: 16px;
+
+                }
+            }
+
+            .project {
+                .project-intro {
+                    display: flex;
+                    max-width: 56%;
+                    margin: auto;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 2.61rem;
+                    .icon-project {
+                        margin-right: 6rem;
+                        video {
+                            width: 175px;
+                            height: 175px;
+                        }
+                    }
+
+                    .description {
+                        margin-bottom: 0;
+                        .desc {
+                            font-size: 24px;
+                            text-align: start;
+                        }
+
+                        p {
+                            font-size: 14px;
+                            text-align: start;
+                            line-height: 36px;
+                        }
+                    }
+                }
+
+
+                .projects {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                }
+            }
+        }
+    }
 }

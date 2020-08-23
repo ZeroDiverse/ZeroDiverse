@@ -3,7 +3,7 @@ nav {
     position: relative;
     .navbrand {
         width: 2rem;
-        height: 50px;
+        //height: 50px;
         position: absolute;
         left: 2rem;
         top: 1.5rem;
@@ -72,7 +72,7 @@ nav {
                 margin-bottom: 3rem;
                 font-weight: normal;
                 font-size: 19px;
-
+                margin-right: 2.5rem;
                 a {
                     color: getColor(primaryBlue);
                     font-weight: normal;
@@ -82,7 +82,7 @@ nav {
 
             .primary {
                 background-color: getColor(primaryBlue);
-                border: 2px solid #207BE6;
+                border: 2px solid getColor(primaryBlue);
                 border-radius: 34px;
                 backdrop-filter: blur(4px);
                 padding: 7.5px 2rem;
@@ -100,4 +100,88 @@ nav {
 }
 
 
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+    header{
+        position: absolute;
+        top: 3.6874rem;
+        width: 100%;
+        height: 5.1215rem;
+        nav {
+            position: relative;
+            height: 5.1215rem;
+            max-width: 90%;
+            margin: auto;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .navbrand{
+                position: static;
+                width: 2.8rem;
+                height: auto;
+            }
+            .btn-close{
+                display: none;
+            }
+    
+            .btn-open{
+                display: none;
+            }
+            
+            .navbar-main{
+                width: auto;
+                background-color: transparent;
+                position: static;
+                height: auto;
+                align-items: center;
+                .navbar-nav{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    height: auto;
+                    li{
+                        margin-bottom: 0;
+                        a{
+                            color: getColor(primaryWhite);
+                            font-size: 16px;
+                        }
+                        
+                    }
+
+                    .primary {
+                        background-color: getColor(primaryBlue);
+                        border: 2px solid getColor(primaryWhite);
+                        backdrop-filter: blur(4px);
+                        font-size: 16px;
+                        &:hover {
+                            background-color: getColor(primaryWhite);
+                            color: getColor(primaryBlue);
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}
+
+@media only screen and (min-width: 1920px) {
+    header{
+        nav{
+            .navbrand{
+                width: 4rem;
+            }
+            .navbar-main{
+                .navbar-nav{
+                    li{
+                        a{
+                            font-size: 19px;
+                        }
+                    }
+                    .primary{
+                        font-size: 19px;
+                    }
+                }
+            }
+        }
+    }
+}

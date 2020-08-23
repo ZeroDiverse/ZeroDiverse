@@ -37,15 +37,15 @@
   <link rel="apple-touch-icon" sizes="180x180"
     href="https://zerodiverse.s3.eu-west-3.amazonaws.com/icons/apple-touch-icon-180x180.png" />
   <% if(path === 'index'){ %>
-  <!--<link rel='stylesheet' href='/css/index.min.css' />-->
-  <link rel="stylesheet" async href="https://zerodiverse.s3.eu-west-3.amazonaws.com/stylesheets/index.min.css">
+  <link rel='stylesheet' href='/css/index.min.css' />
+  <!--<link rel="stylesheet" async href="https://zerodiverse.s3.eu-west-3.amazonaws.com/stylesheets/index.min.css">-->
   <% } else { %>
-  <!--<link rel='stylesheet' href='/css/contact.min.css' />-->
-  <link rel="stylesheet" async href="https://zerodiverse.s3.eu-west-3.amazonaws.com/stylesheets/contact.min.css">
+  <link rel='stylesheet' href='/css/contact.min.css' />
+  <!--<link rel="stylesheet" async href="https://zerodiverse.s3.eu-west-3.amazonaws.com/stylesheets/contact.min.css">-->
   <% } %>
 </head>
 
-<body>
+<body style="position: relative;">
   <header>
     <%- include('./navbar.ejs') -%>
   </header>

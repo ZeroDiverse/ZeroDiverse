@@ -84,3 +84,18 @@ footer {
         background-color: getColor(hoverBtnColor);
     }
 }
+
+@media only screen and (min-width: 1024px){
+    footer{
+        padding-bottom: 2.5rem;
+        h3{
+            font-size: 2rem;
+        }
+
+        .footer-copyright{
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+}
