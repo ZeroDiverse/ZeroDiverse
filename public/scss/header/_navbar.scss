@@ -38,6 +38,26 @@ nav {
             top: 1.5rem;
             right: 1.5rem;
             display: none;
+            svg{
+                width: 36px;
+                height: 36px;
+                .st0 {
+                    fill: #2380E7;
+                }
+
+                .st1 {
+                    fill: #FFFFFF;
+                }
+                &:hover{
+                    .st0 {
+                        fill: #FFFFFF;
+                    }
+    
+                    .st1 {
+                        fill: #2380E7;
+                    } 
+                }
+            }
         }
 
         .navbar-nav {
