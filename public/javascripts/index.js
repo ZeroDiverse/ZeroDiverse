@@ -40,7 +40,7 @@ const observer = new IntersectionObserver((entries, observer) => {
             arrow.style.opacity = '0';
             setTimeout(() => {
                 arrow.style.visibility = 'hidden';
-            }, 600)
+            }, 200)
         }
     })
 }, options);

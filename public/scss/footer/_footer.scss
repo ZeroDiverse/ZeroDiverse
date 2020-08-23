@@ -1,5 +1,5 @@
 footer {
-    background: url('https://citopoto.sirv.com/zerodiverse/images/bg_footer.webp') no-repeat;
+    background: url('https://storage.cloud.google.com/zerodiverse/images/bg_footer.webp') no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -57,6 +57,7 @@ footer {
             color: getColor(primaryWhite);
             line-height: 17px;
             margin: 0.5rem;
+            font-size: 9px;
         }
     }
 }
@@ -65,8 +66,8 @@ footer {
 .down-arrow {
     cursor: pointer;
     position: absolute;
-    bottom: 1.5rem;
-    right: 1rem;
+    bottom: 2rem;
+    right: 2rem;
     filter: drop-shadow(0px 0px 20px rgba(119, 125, 255, 0.1));
     background-color: getColor(primaryBlue);
     border-radius: 50%;
