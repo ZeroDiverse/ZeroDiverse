@@ -8,10 +8,12 @@ var indexRouter = require('./routes/index');
 var contactRouter = require('./routes/contact');
 var compression = require('compression');
 var serveStatic = require('serve-static');
-
+const cors = require('cors');
 var app = express();
 //app.use(helmet());
 app.disable('x-powered-by');
+
+app.use(cors());
 app.use(compression({ filter: shouldCompress }));
 app.use(serveStatic(path.join(__dirname, 'public')));
 
