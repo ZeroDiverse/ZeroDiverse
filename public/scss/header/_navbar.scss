@@ -9,56 +9,57 @@ nav {
         top: 1.5rem;
         cursor: pointer;
         //background-color: white;
+        svg{
+            .st0{fill:#FFFFFF;}
+        }
+    }
+
+    .btn-open {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        display: block;
+        cursor: pointer;
+        &:hover {
+            svg {
+                fill: getColor(darkBlue);
+            }
+        }
+    }
+
+    .btn-close {
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
+        display: none;
+        z-index: 2000000;
+        svg{
+            width: 36px;
+            height: 36px;
+            .st0 {
+                fill: getColor(primaryBlue);
+                transition: all ease-out 0.3s;
+            }
+
+            .st1 {
+                fill: getColor(primaryWhite);
+            }
+            &:hover{
+                .st0 {
+                    fill: getColor(hoverBtnColor);
+                }
+            }
+        }
     }
 
     .navbar-main {
-        position: absolute;
+        position: fixed;
         right: 0;
         height: 100vh;
         width: 0%; //80%
         transition: all 0.6s ease-out;
         background-color: getColor(primaryWhite);
         z-index: 20000;
-
-        .btn-open {
-            position: absolute;
-            top: 2rem;
-            right: 2rem;
-            display: block;
-            cursor: pointer;
-            &:hover {
-                svg {
-                    fill: getColor(darkBlue);
-                }
-            }
-        }
-
-        .btn-close {
-            position: absolute;
-            top: 1.5rem;
-            right: 1.5rem;
-            display: none;
-            svg{
-                width: 36px;
-                height: 36px;
-                .st0 {
-                    fill: #2380E7;
-                }
-
-                .st1 {
-                    fill: #FFFFFF;
-                }
-                &:hover{
-                    .st0 {
-                        fill: #FFFFFF;
-                    }
-    
-                    .st1 {
-                        fill: #2380E7;
-                    } 
-                }
-            }
-        }
 
         .navbar-nav {
             display: flex;

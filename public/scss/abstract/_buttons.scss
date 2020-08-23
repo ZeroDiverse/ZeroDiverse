@@ -2,7 +2,6 @@
 @import './functions';
 
 .btn {
-    border: 2px solid #207BE6;
     border-radius: 34px;
     backdrop-filter: blur(4px);
     padding: 7.5px 2rem;
@@ -16,6 +15,12 @@
 
 .btn-primary {
     @extend .btn;
+    border: 2px solid getColor(primaryBlue);
     background-color: getColor(primaryBlue);
     color: getColor(primaryWhite);
+    &:hover{
+        border: 2px solid getColor(hoverBtnColor);
+        background-color: getColor(hoverBtnColor);
+        transition: all 0.3s ease-out;
+    }
 }

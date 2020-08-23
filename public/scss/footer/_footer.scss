@@ -1,5 +1,5 @@
 footer {
-    background: url('https://res.cloudinary.com/dnndch4fo/image/upload/v1598117148/zero/background/bg_footer_aewth0.webp') no-repeat;
+    background: url('https://citopoto.sirv.com/zerodiverse/images/bg_footer.webp') no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -78,4 +78,8 @@ footer {
     visibility: hidden;
     opacity: 0;
     transition: all 0.6s ease-out;
+    &:hover{
+        transition: all 0.3s ease-out;
+        background-color: getColor(hoverBtnColor);
+    }
 }

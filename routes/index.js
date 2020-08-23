@@ -2,9 +2,12 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', function (req, res, next) {
   res.setHeader('Cache-Control', 'res.cloudinary.com, max-age=31536000');
-  res.render('index', { title: 'Student - Software Developer | ZeroDiverse' });
+  res.render('index', { 
+    title: 'Student - Software Developer | ZeroDiverse',
+    path: 'index'
+  });
 });
 
 module.exports = router;

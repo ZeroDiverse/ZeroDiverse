@@ -1,0 +1,50 @@
+.form-group {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 0.85rem;
+    .form-group-inline{
+        margin-bottom: 0.85rem;
+    }
+    label {
+        display: block;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 24px;
+        /* identical to box height, or 200% */
+
+        text-align: start;
+        color: getColor(primaryWhite);
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        border: 0;
+        padding: 1rem;
+        font-size: 15px;
+        &:active, &:focus{
+            outline: none;
+        }
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        height: 2.75rem;
+        background: getColor(primaryWhite);
+        border-radius: 10px;
+    }
+
+    textarea {
+        height: 6rem;
+        background: getColor(primaryWhite);
+        border-radius: 10px;
+    }
+
+    *{
+        &::placeholder{
+            font-family: 'OpenSans-Regular', 'Courier New', Courier, monospace, sans-serif;
+            font-size: 15px;
+        }
+    }
+}
