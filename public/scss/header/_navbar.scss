@@ -183,7 +183,12 @@ nav {
                         }
                     }
                     .primary{
+                        width: 178px;
+                        height: 56px;
                         font-size: 19px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                     }
                 }
             }
