@@ -70,14 +70,14 @@ main {
 @media screen and (min-width: 1024px) {
     main {
         .projects-section {
-            margin-bottom: 160px;
+            margin-bottom: 10rem;
             .section-intro {
                 h2 {
-                    font-size: 36px;
+                    font-size: 2rem;
                 }
 
                 h3 {
-                    font-size: 16px;
+                    font-size: 1rem;
 
                 }
             }
@@ -101,12 +101,58 @@ main {
                     .description {
                         margin-bottom: 0;
                         .desc {
-                            font-size: 24px;
+                            font-size: 1.5rem;
                             text-align: start;
                         }
 
                         p {
-                            font-size: 14px;
+                            font-size: 1rem;
+                            text-align: start;
+                            line-height: 36px;
+                        }
+                    }
+                }
+
+
+                .projects {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    main {
+        .projects-section {
+            margin-bottom: 15rem;
+            .section-intro {
+                h2 {
+                    font-size: 2.5rem;
+                }
+
+                h3 {
+                    font-size: 1.1875rem;
+                }
+            }
+
+            .project {
+                .project-intro {
+                    .icon-project {
+                        video {
+                            width: 175px;
+                            height: 175px;
+                        }
+                    }
+
+                    .description {
+                        .desc {
+                            font-size: 1.875rem;
+                        }
+
+                        p {
+                            font-size: 1.1875rem;
                             text-align: start;
                             line-height: 36px;
                         }

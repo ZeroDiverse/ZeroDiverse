@@ -35,11 +35,39 @@ footer {
                 font-size: 2rem;
             }
             p{
+                width: 45%;
+                margin-left: auto;
+                margin-right: auto;
                 font-size: 1rem;
             }
 
             .btn-primary{
                 font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    footer{
+        .collab-section{
+            height: 27.25rem;
+            padding-top: 4.75rem;
+            transform: translateY(-13.5rem);
+            h2{
+                font-size: 2.5rem;
+                margin-bottom: 2.5rem;
+            }
+            p{
+                font-size: 19px;
+                width: 40%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 2.5rem;
+            }
+
+            .btn-primary{
+                font-size: 19px;
             }
         }
     }

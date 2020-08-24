@@ -96,6 +96,43 @@ main {
     }
 }
 
+@media only screen and (min-width: 1024px) {
+    main{
+        .introduction-section{
+            .intro-main{
+                p{
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    main{
+        .introduction-section{
+            .intro-main{
+                p{
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    main{
+        .introduction-section{
+            .intro-main{
+                p{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+
 @media only screen and (min-width: 1920px) {
     main {
         .introduction-section {

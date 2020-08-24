@@ -29,6 +29,7 @@ main {
                 font-style: normal;
                 font-weight: normal;
                 font-size: 15px;
+                cursor: pointer;
             }
         }
     }
@@ -36,4 +37,55 @@ main {
 
 footer{
     display: none;
+}
+
+@media screen and (min-width: 1024px){
+    main{
+        .form{
+            width: 70%;
+            margin: auto;
+            margin-top: 7rem;
+            form{
+                padding-bottom: 10rem;
+
+                legend{
+                    font-size: 2rem;
+                }
+                .btn-primary{
+                    background: transparent;
+                    border: 1px solid getColor(white);
+                    height: 2.5rem;
+                    width: 8rem;
+                    font-size: 1rem;
+                    margin-bottom: 0;
+                    &:hover{
+                        color: getColor(primaryBlue);
+                        background-color: getColor(primaryWhite);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1920px){
+    main{
+        .form{
+            width: 70%;
+            margin: auto;
+            margin-top: 7rem;
+            form{
+                padding-bottom: 10rem;
+                legend{
+                    font-size: 2rem;
+                }
+                .btn-primary{
+                    font-size: 1.25rem;
+                    height: 3rem;
+                    width: 10rem;
+                    margin-top: 2.25rem;
+                }
+            }
+        }
+    }
 }

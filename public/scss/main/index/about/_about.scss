@@ -100,7 +100,7 @@ main {
     main{
         .about-section{
             display: flex;
-            padding: 0 7.5%;
+            padding: 0;
             transform: translateX(-7rem);
             align-items: flex-end;
             .section-intro{
@@ -118,6 +118,41 @@ main {
                 p{
                     font-size: 1rem;
                     text-align: start;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    main{
+        .about-section{
+            display: flex;
+            padding: 0 7.5%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    main{
+        .about-section{
+            display: flex;
+            padding: 0 8%;
+            transform: translateX(-16rem);
+            margin-bottom: 27.5rem;
+            .section-intro{
+                img, video{
+                    width: 66rem;
+                    transform: translateX(0);
+                }
+                margin-right: 5rem;
+            }
+            .section-main{
+                h2{
+                    font-size: 2.5rem;
+                }
+                p{
+                    font-size: 1.1875rem;
                 }
             }
         }
