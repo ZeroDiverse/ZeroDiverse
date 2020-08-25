@@ -11,7 +11,7 @@ main {
             margin-bottom: 4.375rem;
 
             h2 {
-                font-family: 'OpenSans-SemiBold', 'Courier New', Courier, monospace, sans-serif;
+                font-weight: 600;
                 font-size: 20px;
                 line-height: 32px;
             }
@@ -43,7 +43,6 @@ main {
 
                 .desc {
                     //Todo font weight
-                    font-family: 'OpenSans-SemiBold', 'Courier New', Courier, monospace, sans-serif;
                     font-style: normal;
                     font-weight: 600;
                     font-size: 15px;
