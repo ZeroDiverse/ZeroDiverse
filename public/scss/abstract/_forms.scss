@@ -5,6 +5,9 @@
     .form-group-inline{
         margin-bottom: 0.85rem;
     }
+    .form-group-inline:last-of-type{
+        margin-bottom: 0rem;
+    }
     label {
         display: block;
         font-style: normal;
@@ -40,13 +43,14 @@
         background: getColor(primaryWhite);
         border-radius: 10px;
     }
-
+    /*
     *{
         &::placeholder{
             font-family: 'OpenSans-Regular', 'Courier New', Courier, monospace, sans-serif;
             font-size: 15px;
         }
     }
+    */
 }
 
 @media screen and (min-width: 1024px){
@@ -64,11 +68,13 @@
         textarea{
             height: 8.75rem;
         }
+        /*
         input, textarea{
             &::placeholder{
                 font-size: 1rem;
             }
         }
+        */
     }
 
     .inline{
@@ -88,11 +94,12 @@
         textarea {
             font-size: 19px;
         }
-
+        /*
         input,textarea{
             &::placeholder{
                 font-size: 19px;
             }
         }
+        */
     }
 }
