@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use('/api/', require('./routes/api/index'));
-app.use('/api/contact', './routes/api/contact.js');
+app.use('/api/contact', require('./routes/api/contact.js'));
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
