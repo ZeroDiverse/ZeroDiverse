@@ -2,9 +2,6 @@ const createError = require('http-errors');
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
-
-const indexRouter = require('./routes/api/index');
-const contactRouter = require('./routes/api/contact');
 const compression = require('compression');
 const cors = require('cors');
 const helmet = require('helmet');
@@ -29,8 +26,8 @@ function shouldCompress(req, res) {
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use('/api/', indexRouter);
-app.use('/api/contact', contactRouter);
+app.use('/api/', require('./routes/api/index'));
+app.use('/api/contact', './routes/api/contact.js');
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
