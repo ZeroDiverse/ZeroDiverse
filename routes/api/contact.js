@@ -1,10 +1,10 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
+const sendMail = require('./../../helpers/sendMail');
+
 
 /* GET users listing. */
-router.post('/', function(req, res, next) {
-    
-});
+router.post('/', sendMail);
 
 /* GET users listing. */
 router.post('/collab', function(req, res, next) {
