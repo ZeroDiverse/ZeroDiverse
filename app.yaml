@@ -1,0 +1,16 @@
+runtime: nodejs
+env: flex
+instance_class: F2
+
+# This sample incurs costs to run on the App Engine flexible environment.
+# The settings below are to reduce costs during testing and are not appropriate
+# for production use. For more information, see:
+# https://cloud.google.com/appengine/docs/flexible/nodejs/configuring-your-app-with-app-yaml
+env_variables:
+  GMAIL_ID_CLIENT: "857269880149-12tp3l32v85g9aep6sqj6guntfibothu.apps.googleusercontent.com"
+  GMAIL_SECRET_CLIENT: "ycyQFRy4dgVVD5Pu8CJcuIJ2"
+  GMAIL_REFRESH_TOKEN: "1//04AutQ4mWcp8wCgYIARAAGAQSNwF-L9Ir2wgBNNSyXyEI2U6iddHJDrNC2qJf8ArGsvDipkMgbsnRZRRa9_YKJ2Sx4Syr1XYD4ZE"
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
