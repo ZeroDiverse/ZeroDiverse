@@ -18,8 +18,8 @@ const transport = nodemailer.createTransport({
 });
 
 const sendEmail = (req, res, next) => {
-    const { firstname, lastname, email, subject, message } = req.body;
-
+    const { firstname, lastname, email, subject, message } = req.body.data;
+    const { lang } = req.body
     const mailOptions = {
         from: 'minhquan.nguyen.fr@gmail.com', // sender
         to: 'minhquan.nguyen.fr@gmail.com', // receiver
@@ -34,35 +34,36 @@ const sendEmail = (req, res, next) => {
                 message: err
             })
         } else {
-            sendEmailBack(req, res, next);
-            res.send({
-                message: 'Email has been sent: check your inbox!'
+            console.log('email has been sent')
+            sendEmailBack(email, lang);
+            res.json({
+                message: 'Sucessful'
             })
         }
     })
+
 }
 
-const sendEmailBack = (req, res, next) => {
-    const {  email } = req.body;
-
+const sendEmailBack = (email, lang) => {
+    let subject = "Thank you for contacting me, ZeroDiverse with <3"
+    let content = `<p>Hi, looks like you have messaged me.</p><p>Thank you i will try to message you back as soon as possible.</p><br/><br/><p>Best Regards</p><p>Zero Diverse</p>`
+    if (lang === 'fr-FR') {
+        subject = "Merci pour me contacter, ZeroDiverse avec <3"
+        content = `<p>Bonjour, vous avez m'envoyé une message?</p><p>Merci, je vais essayer de vous répondre dès que possible!!!</p><br/><br/><p>Cordialement,</p><p>Zero Diverse</p>`
+    }
     const mailOptions = {
         from: 'minhquan.nguyen.fr@gmail.com', // sender
         to: email, // receiver
-        subject: "Thank you for contacting me, ZeroDiverse with <3", // Subject
-        html: `<p>Hi, looks like you have messaged me.</p><p>Thank you i will try to message you back as soon as possible</p>.`
+        subject: subject, // Subject
+        html: content
     }
 
     transport.sendMail(mailOptions, function (err, result) {
         if (err) {
             console.log(err);
-            res.send({
-                message: err
-            })
         } else {
+            //console.log(email + " " + lang)
             transport.close();
-            res.send({
-                message: 'Email has been sent: check your inbox!'
-            })
         }
     })
 }

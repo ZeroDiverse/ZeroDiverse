@@ -7,7 +7,7 @@ const sendMail = require('./../../helpers/sendMail');
 router.post('/', sendMail);
 
 /* GET users listing. */
-router.post('/collab', function(req, res, next) {
+router.post('/collab', function (req, res, next) {
 
 });
 
