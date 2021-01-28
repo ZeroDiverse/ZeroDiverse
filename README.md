@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there ! I am ZeroD 👋
 
 <!--
 **ZeroDiverse/ZeroDiverse** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -15,7 +15,16 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-I am ZeroD, a 23 years old student living in Lille, France and want to become a software engineering, mainly on Web and Android technologies.
+<h1 align="left">I'm a Student - Software Developer</h1>
 
-📫 How to reach me:
-    
+- 🔭 I’m currently studying at University of Lille
+
+- 👯 I’m looking to collaborate with other fellow developers.
+
+- 📫 Reach out to me at : **minhquan.nguyen.fr@gmail.com**
+
+- ⚡ Fun fact: 
+
+<p align="center">
+<a href="https://www.linkedin.com/in/quan-nguyen-1b9a31199/" target="blank"><img src="https://img.icons8.com/cute-clipart/30/000000/linkedin.png"/></a>
+</p>
