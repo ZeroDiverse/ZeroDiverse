@@ -26,5 +26,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: 
 
 <p align="center">
-<a href="https://www.linkedin.com/in/quan-nguyen-1b9a31199/" target="blank"><img width="3rem" height="2rem" src="https://image.flaticon.com/icons/png/512/174/174857.png"/></a>
+<a href="https://www.linkedin.com/in/quan-nguyen-1b9a31199/" target="blank"><img width="32px" height="32px" src="https://image.flaticon.com/icons/png/512/174/174857.png"/></a>
 </p>
