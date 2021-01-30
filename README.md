@@ -49,6 +49,6 @@ Here are some ideas to get you started:
 
 
 <p align="center">
-<a href="mailto:minhquan.nguyen.vi@gmail.com" target="blank" style="margin: 40px"><img style="margin: 30px" height="50" src="https://www.italiafollower.it/wp-content/uploads/2019/12/gmail-google.png"/></a>
-<a href="https://www.linkedin.com/in/quan-nguyen-1b9a31199/" target="blank" style="margin: 40px"><img  style="margin: 30px" height="50"src="https://image.flaticon.com/icons/png/512/174/174857.png"/></a>
+<a href="mailto:minhquan.nguyen.vi@gmail.com" target="blank"><img style="margin: 30px" height="50" src="https://www.italiafollower.it/wp-content/uploads/2019/12/gmail-google.png"/></a>
+<a href="https://www.linkedin.com/in/quan-nguyen-1b9a31199/" target="blank"><img  style="margin: 30px" height="50"src="https://image.flaticon.com/icons/png/512/174/174857.png"/></a>
 </p>
