@@ -47,8 +47,13 @@ Here are some ideas to get you started:
 
 ## 📱 Connect with me
 
+  <div align="center">
+<a href="mailto:minhquan.nguyen.vi@gmail.com" target="_blank">
+<img src=https://img.shields.io/badge/gmail-%23ff4343.svg?&style=for-the-badge&logo=gmail&logoColor=white alt=twitter style="margin-bottom: 5px;" />
+</a>
+<a href="https://www.linkedin.com/in/quan-nguyen-1b9a31199/" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</a>
 
-<p align="center">
-<a href="mailto:minhquan.nguyen.vi@gmail.com" target="blank"><img style="margin: 30px" height="50" src="https://www.italiafollower.it/wp-content/uploads/2019/12/gmail-google.png"/></a>
-<a href="https://www.linkedin.com/in/quan-nguyen-1b9a31199/" target="blank"><img  style="margin: 30px" height="50"src="https://image.flaticon.com/icons/png/512/174/174857.png"/></a>
+</div>
 </p>
