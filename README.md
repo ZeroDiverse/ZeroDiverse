@@ -40,6 +40,13 @@ Here are some ideas to get you started:
 <img style="margin: 10px" src="https://4.bp.blogspot.com/-0T-xa8wffLU/U_-eoMjIo9I/AAAAAAAAEVY/6Fn5-9QAcmI/s1600/spring-boot-project-logo.png" alt="Spring" height="50" />  
 </div> 
 
+
+
+
+
+## 📱 Connect with me
+
+
 <p align="center">
 <a href="mailto:minhquan.nguyen.vi@gmail.com" target="blank"><img width="32px" height="32px" src="https://www.italiafollower.it/wp-content/uploads/2019/12/gmail-google.png"/></a>
 <a href="https://www.linkedin.com/in/quan-nguyen-1b9a31199/" target="blank"><img width="32px" height="32px" src="https://image.flaticon.com/icons/png/512/174/174857.png"/></a>
